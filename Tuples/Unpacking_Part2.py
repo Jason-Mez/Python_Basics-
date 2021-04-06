@@ -10,3 +10,7 @@ for album in albums:
     #You can unpack the tuple. 
     title, artist, year = album
     print(f"The title of the album is {title}, The artists is {artist}, The year is {year}")
+
+#Unpacking from the start. 
+for album, artist, year in albums: 
+    print(f"The title of the album is {album}, The artists is {artist}, The year is {year}")
