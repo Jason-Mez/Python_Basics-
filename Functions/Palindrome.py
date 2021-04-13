@@ -1,6 +1,10 @@
-#Script that shows if what you are typing in is a palindrom or not. 
 def palindrome(word):
-    return word[::-1] == word #Evaluates to True or False. 
+    return word[::-1] == word
+
+
+
+def palindrome(word):
+    return word[::-1] == word
 
 wording = input("Please type in the word : ")
 
