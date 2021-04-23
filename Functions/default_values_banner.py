@@ -1,4 +1,4 @@
-def banner(text = " ", screen_width= 80): 
+def banner(text=" ", screen_width= 80): #Do not leave spaces when creating default parameters.  
      
     if len(text) > screen_width - 4 :
         raise ValueError(f"The {text} is larger than the specified width {screen_width}") 
